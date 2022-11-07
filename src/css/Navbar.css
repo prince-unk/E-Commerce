@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_cont{
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo{
+    size: 1rem;
+}
+
+.navMain{
+    height: auto;
+    width: auto;
+    z-index: 1;
+}

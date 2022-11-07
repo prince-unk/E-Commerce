@@ -1,13 +1,11 @@
-import React from 'react'
-import './App.css'
-import Container from './components/Container'
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+ import Headercontainer from './containers/Headercontainer'
+ import Homecontainer from './containers/Homecontainer'
 function App() {
   return (
-
-    <Container />
-
+<>
+     <Headercontainer/>
+     <Homecontainer/>
+</>    
   );
 }
 
